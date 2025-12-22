@@ -130,3 +130,4 @@ C:\Users\HP\source\repos\BE303TestDb\BE303TestDb\obj\Debug\net8.0\refint\BE303Te
 C:\Users\HP\source\repos\BE303TestDb\BE303TestDb\obj\Debug\net8.0\BE303TestDb.pdb
 C:\Users\HP\source\repos\BE303TestDb\BE303TestDb\obj\Debug\net8.0\BE303TestDb.genruntimeconfig.cache
 C:\Users\HP\source\repos\BE303TestDb\BE303TestDb\obj\Debug\net8.0\ref\BE303TestDb.dll
+C:\Users\HP\source\repos\BE303TestDb\BE303TestDb\obj\Debug\net8.0\BE303TestDb.sourcelink.json
