@@ -5,141 +5,141 @@ using Microsoft.EntityFrameworkCore;
 Console.WriteLine("Hello, World!");
 
 
-AppDbContext _context = new();
+//AppDbContext _context = new();
 
-Student s1 = new()
-{
-    FullName = "Asmar Gadirli",
-    Age = 19,
-    Score = 88.5,
-    IsActive = true,
-    Group = "CS-101"
-};
-Student s2 = new()
-{
-    FullName = "Ilkin Memmedov",
-    Age = 20,
-    Score = 86,
-    IsActive = true,
-    Group = "CS-101"
-};
+//Student s1 = new()
+//{
+//    FullName = "Asmar Gadirli",
+//    Age = 19,
+//    Score = 88.5,
+//    IsActive = true,
+   
+//};
+//Student s2 = new()
+//{
+//    FullName = "Ilkin Memmedov",
+//    Age = 20,
+//    Score = 86,
+//    IsActive = true,
+  
+//};
 
-Student s3 = new()
-{
-    FullName = "Nuray Tagiyeva",
-    Age = 19,
-    Score = 75,
-    IsActive = false,
-    Group = "CS-101"
-};
+//Student s3 = new()
+//{
+//    FullName = "Nuray Tagiyeva",
+//    Age = 19,
+//    Score = 75,
+//    IsActive = false,
+   
+//};
 
-Student s4 = new()
-{
-    FullName = "Aysel Memmedova",
-    Age = 20,
-    Score = 90,
-    IsActive = true,
-    Group = "CS-101"
-};
+//Student s4 = new()
+//{
+//    FullName = "Aysel Memmedova",
+//    Age = 20,
+//    Score = 90,
+//    IsActive = true,
+ 
+//};
 
-Student s5 = new()
-{
-    FullName = "Turan Huseynli",
-    Age = 18,
-    Score = 74.5,
-    IsActive = false,
-    Group = "CS-101"
-};
+//Student s5 = new()
+//{
+//    FullName = "Turan Huseynli",
+//    Age = 18,
+//    Score = 74.5,
+//    IsActive = false,
+   
+//};
 
-Student s6 = new()
-{
-    FullName = "Polad Gadirli",
-    Age = 18,
-    Score = 83.5,
-    IsActive = true,
-    Group = "CS-103"
-};
+//Student s6 = new()
+//{
+//    FullName = "Polad Gadirli",
+//    Age = 18,
+//    Score = 83.5,
+//    IsActive = true,
+    
+//};
 
-Student s7 = new()
-{
-    FullName = "Nargiz Ahmedova",
-    Age = 21,
-    Score = 91,
-    IsActive = true,
-    Group = "CS-103"
-};
+//Student s7 = new()
+//{
+//    FullName = "Nargiz Ahmedova",
+//    Age = 21,
+//    Score = 91,
+//    IsActive = true,
+//    Group = "CS-103"
+//};
 
-Student s8 = new()
-{
-    FullName = "Yusif Memmedli",
-    Age = 18,
-    Score = 79,
-    IsActive = false,
-    Group = "CS-103"
-};
+//Student s8 = new()
+//{
+//    FullName = "Yusif Memmedli",
+//    Age = 18,
+//    Score = 79,
+//    IsActive = false,
+//    Group = "CS-103"
+//};
 
-Student s9 = new()
-{
-    FullName = "Turan Ceferov",
-    Age = 19,
-    Score = 88,
-    IsActive = true,
-    Group = "CS-103"
-};
+//Student s9 = new()
+//{
+//    FullName = "Turan Ceferov",
+//    Age = 19,
+//    Score = 88,
+//    IsActive = true,
+//    Group = "CS-103"
+//};
 
-Student s10 = new()
-{
-    FullName = "Aydan Asgarzada",
-    Age = 20,
-    Score = 90.5,
-    IsActive = true,
-    Group = "CS-103"
-};
+//Student s10 = new()
+//{
+//    FullName = "Aydan Asgarzada",
+//    Age = 20,
+//    Score = 90.5,
+//    IsActive = true,
+//    Group = "CS-103"
+//};
 
-Student s11 = new()
-{
-    FullName = "Nizami Hesenli",
-    Age = 19,
-    Score = 76,
-    IsActive = false,
-    Group = "CS-102"
-};
+//Student s11 = new()
+//{
+//    FullName = "Nizami Hesenli",
+//    Age = 19,
+//    Score = 76,
+//    IsActive = false,
+//    Group = "CS-102"
+//};
 
-Student s12 = new()
-{
-    FullName = "Narmin Guliyeva",
-    Age = 20,
-    Score = 77.5,
-    IsActive = false,
-    Group = "CS-102"
-};
+//Student s12 = new()
+//{
+//    FullName = "Narmin Guliyeva",
+//    Age = 20,
+//    Score = 77.5,
+//    IsActive = false,
+//    Group = "CS-102"
+//};
 
-Student s13 = new()
-{
-    FullName = "Valeh Memmedov",
-    Age = 20,
-    Score = 92.5,
-    IsActive = true,
-    Group = "CS-102"
-};
+//Student s13 = new()
+//{
+//    FullName = "Valeh Memmedov",
+//    Age = 20,
+//    Score = 92.5,
+//    IsActive = true,
+//    Group = "CS-102"
+//};
 
-Student s14 = new()
-{
-    FullName = "Tavat Qasimzade",
-    Age = 19,
-    Score = 90,
-    IsActive = true,
-    Group = "CS-102"
-};
+//Student s14 = new()
+//{
+//    FullName = "Tavat Qasimzade",
+//    Age = 19,
+//    Score = 90,
+//    IsActive = true,
+//    Group = "CS-102"
+//};
 
-Student s15 = new()
-{
-    FullName = "Fidan Aliyeva",
-    Age = 18,
-    Score = 75,
-    IsActive = false,
-    Group = "CS-102"
-};
+//Student s15 = new()
+//{
+//    FullName = "Fidan Aliyeva",
+//    Age = 18,
+//    Score = 75,
+//    IsActive = false,
+//    Group = "CS-102"
+//};
 
 
 
